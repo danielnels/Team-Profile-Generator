@@ -83,7 +83,7 @@ https://user-images.githubusercontent.com/94213022/154829486-7128ef43-94a3-4336-
 
 ## Generated HTML file 
 
-https://github.com/danielnels/Team-Profile-Generator/blob/main/Utils/generateHTML.js
+https://github.com/danielnels/Team-Profile-Generator/blob/main/dist/myTeam.html
 
 ## Generated HTML file image
 ![Screen Shot](https://user-images.githubusercontent.com/94213022/154829477-3aa8e0ee-be1c-499f-be31-4dfdf881c85a.png)
