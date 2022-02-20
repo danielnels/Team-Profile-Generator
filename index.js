@@ -186,7 +186,7 @@ function employeeRole() {
       name: "role",
       message:
         "Do you want to add an additional employee to our team? Please select our new employee's role.",
-      choices: ["Engineer", "Intern", "I am done editing our team"],
+      choices: ["Engineer", "Intern", "I am done editing my team"],
     },
   ];
   inquirer.prompt(roleQuestion).then((response) => {
@@ -233,8 +233,8 @@ function internCard() {
 }
 
 function writeHTML() {
-  fs.writeFile("./dist/index.html", render.generateHTML(team), (err) => {
-    err ? console.log(err) : console.log("index.html generated");
+  fs.writeFile("./dist/myTeam.html", render.generateHTML(team), (err) => {
+    err ? console.log(err) : console.log("myTeam.html generated");
   });
   console.log(team);
 }

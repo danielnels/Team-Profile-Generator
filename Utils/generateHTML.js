@@ -99,12 +99,12 @@ function generateHTML(team) {
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
     crossorigin="anonymous"
   />
-    <title>Our Team</title>
+    <title>My Team</title>
   </head>
   <body>
     <div class="jumbotron-fluid bg-danger text-white">
       <div class="container pt-3 pb-5">
-        <h1 class="display-2 fw-bold">Our Team</h1>
+        <h1 class="display-2 fw-bold">My Team</h1>
       </div>
     </div>
     <div class="row row-cols-4 g-3 pt-3 ms-5 me-5 justify-content-center">
