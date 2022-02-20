@@ -4,12 +4,13 @@
 
 App to dynamically generate a work team profile using Node JS.
 
- ## TableOfContents
+ ## Table Of Contents
   * [Description](#description)
   * [User Story](#user-story)
   * [This Weeks task](#this-weeks-task)
   * [Acceptance Criteria](#acceptance-criteria )
   * [Walkthrough Video](#walkthrough-video)
+  * [Generated HTML file image ](#generated-html-file-image)
   * [Generated HTML file ](#generated-html-file)
   * [Usage](#usage)
   * [Technologies Used](#technologies-used)
@@ -71,13 +72,22 @@ The user will be prompted to anwser the Team profile questions. Once completed t
 -npm jest
 
 ## Tests 
-Install the module "jest" make sure the script is correct the the package.json (should be test "jest"), rum npm test in the terminal.
+Install the module "jest" make sure the script is correct the the package.json (should be test "jest"), run npm test in the terminal.
 
 
 ## Walkthrough Video
-https://drive.google.com/file/d/1VXlBvmOT81cgXtDgIXe604d2wapglV9Q/view
-## Generated HTML file
+
+
+https://user-images.githubusercontent.com/94213022/154829486-7128ef43-94a3-4336-b8e0-0567c8ab990d.mp4
+
+
+## Generated HTML file 
+
 https://github.com/danielnels/Team-Profile-Generator/blob/main/dist/myTeam.html
+
+## Generated HTML file image
+![Screen Shot](https://user-images.githubusercontent.com/94213022/154829477-3aa8e0ee-be1c-499f-be31-4dfdf881c85a.png)
+
 
 ## License
 
