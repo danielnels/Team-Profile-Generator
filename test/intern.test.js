@@ -3,7 +3,7 @@ const Intern = require('../lib/Intern');
 
 describe("to test the intern class", () =>{
 
-    it("can used to create a new employee", () =>{
+    it("can used to create a new intern", () =>{
         
         const intern = new Intern('Dan','666', 'danieln0014@gmail.com', 'School');
         expect(intern).toBeInstanceOf(Intern); 
@@ -30,6 +30,35 @@ describe("to test the intern class", () =>{
         const email = "Jack@jack.com";
         const intern = new Intern("Jack", "121", email, "School");
         expect(intern.email).toBe(email);
+    });
+      // test getName()
+      it('can get the intern name by calling the getName() method', () => {
+
+        const name = 'dan';
+        const intern = new Intern(name, 17, 'dan@dan.com');
+        const outcome = intern.getName();
+        expect(outcome).toBe(name);
+    });
+
+
+    // test getEmail()
+    it("can get the intern email by calling the getEmail() method", () => {
+
+        const verified = "dan@email.com";
+        const intern = new Intern("dan", 17, verified);
+        const outcome = intern.getEmail();
+
+        expect(outcome).toBe(verified);
+    });
+
+    // test getId()
+    it("can get the intern id by the calling getId() method", () => {
+
+        const verified = "404";
+        const intern = new Intern("dan", verified, 'dan@email.com');
+        const outcome = intern.getID();
+
+        expect(outcome).toBe(verified);
     });
 
     it('returns the role of intern', () => {

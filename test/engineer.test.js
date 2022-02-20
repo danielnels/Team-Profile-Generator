@@ -2,7 +2,7 @@ const Engineer = require('../lib/Engineer');
 
 describe("to test the engineer class", () =>{
 
-    it("can used to create a new employee", () =>{
+    it("can used to create a new engineer", () =>{
         
         const engineer = new Engineer('Dan','666', 'danieln0014@gmail.com', 'School');
         expect(engineer).toBeInstanceOf(Engineer); 
@@ -29,6 +29,35 @@ describe("to test the engineer class", () =>{
         const email = "Jack@jack.com";
         const engineer = new Engineer("Jack", "121", email, "School");
         expect(engineer.email).toBe(email);
+    });
+      // test getName()
+      it('can get the engineer name by calling the getName() method', () => {
+
+        const name = 'dan';
+        const engineer = new Engineer(name, 17, 'dan@dan.com');
+        const outcome = engineer.getName();
+        expect(outcome).toBe(name);
+    });
+
+
+    // test getEmail()
+    it("can get the engineer email by calling the getEmail() method", () => {
+
+        const verified = "dan@email.com";
+        const engineer = new Engineer("dan", 17, verified);
+        const outcome = engineer.getEmail();
+
+        expect(outcome).toBe(verified);
+    });
+
+    // test getId()
+    it("can get the engineer id by the calling getId() method", () => {
+
+        const verified = "404";
+        const engineer = new Engineer("dan", verified, 'dan@email.com');
+        const outcome = engineer.getID();
+
+        expect(outcome).toBe(verified);
     });
 
     it('returns the role of the engineer', () => {

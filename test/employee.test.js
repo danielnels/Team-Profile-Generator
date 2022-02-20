@@ -35,16 +35,12 @@ describe('Employee class test', () => {
         expect(employee.email).toBe(email);
     });
 
-     // test getName()
+    // test getName()
     it('can get the employee name by calling the getName() method', () => {
-        
+
         const name = 'dan';
-
-
         const employee = new Employee(name, 17, 'dan@dan.com');
-
         const outcome = employee.getName();
-
         expect(outcome).toBe(name);
     });
 
@@ -53,10 +49,7 @@ describe('Employee class test', () => {
     it("can get the employee email by calling the getEmail() method", () => {
 
         const verified = "dan@email.com";
-
-
         const employee = new Employee("dan", 17, verified);
-
         const outcome = employee.getEmail();
 
         expect(outcome).toBe(verified);
@@ -66,10 +59,7 @@ describe('Employee class test', () => {
     it("can get the employee id by the calling getId() method", () => {
 
         const verified = "404";
-
-
         const employee = new Employee("dan", verified, 'dan@email.com');
-
         const outcome = employee.getID();
 
         expect(outcome).toBe(verified);
@@ -79,10 +69,7 @@ describe('Employee class test', () => {
     it("can get the employee role by calling the getRole() method", () => {
 
         const verified = "Employee";
-
-
         const employee = new Employee("dan", 17, 'asd@.com');
-
         const outcome = employee.getRole();
 
         expect(outcome).toBe(verified);
