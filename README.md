@@ -75,7 +75,7 @@ Install the module "jest" make sure the script is correct the the package.json (
 
 
 ## Walkthrough Video
-
+https://drive.google.com/file/d/1VXlBvmOT81cgXtDgIXe604d2wapglV9Q/view
 ## Generated HTML file
 https://github.com/danielnels/Team-Profile-Generator/blob/main/dist/myTeam.html
 
