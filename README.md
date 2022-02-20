@@ -75,10 +75,15 @@ Install the module "jest" make sure the script is correct the the package.json (
 
 
 ## Walkthrough Video
-https://drive.google.com/file/d/1VXlBvmOT81cgXtDgIXe604d2wapglV9Q/view
+
+
+https://user-images.githubusercontent.com/94213022/154829486-7128ef43-94a3-4336-b8e0-0567c8ab990d.mp4
+
+
 
 ## Generated HTML file image
-https://github.com/danielnels/Team-Profile-Generator/blob/main/assets/Screen%20Shot.png
+![Screen Shot](https://user-images.githubusercontent.com/94213022/154829477-3aa8e0ee-be1c-499f-be31-4dfdf881c85a.png)
+
 
 ## License
 
