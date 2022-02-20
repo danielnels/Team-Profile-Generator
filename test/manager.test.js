@@ -42,10 +42,10 @@ describe("to test the manager class", () =>{
 
     it('returns a new office number value', ()=>{
        //testing getOfficeNumber()
-        const verity = "905204450";
-        const manager = new Manager("dan", "585", "dan@mail.com", verity);
+        const verified = "905204450";
+        const manager = new Manager("dan", "585", "dan@mail.com", verified);
         const outcome = manager.getOfficeNumber();
-        expect(outcome).toBe(verity);
+        expect(outcome).toBe(verified);
     });
 
 });

@@ -52,40 +52,40 @@ describe('Employee class test', () => {
     // test getEmail()
     it("can get the employee email by calling the getEmail() method", () => {
 
-        const verity = "dan@email.com";
+        const verified = "dan@email.com";
 
 
-        const employee = new Employee("dan", 17, verity);
+        const employee = new Employee("dan", 17, verified);
 
         const outcome = employee.getEmail();
 
-        expect(outcome).toBe(verity);
+        expect(outcome).toBe(verified);
     });
 
     // test getId()
     it("can get the employee id by the calling getId() method", () => {
 
-        const verity = "404";
+        const verified = "404";
 
 
-        const employee = new Employee("dan", verity, 'dan@email.com');
+        const employee = new Employee("dan", verified, 'dan@email.com');
 
         const outcome = employee.getID();
 
-        expect(outcome).toBe(verity);
+        expect(outcome).toBe(verified);
     });
 
     // test getRole()
     it("can get the employee role by calling the getRole() method", () => {
 
-        const verity = "Employee";
+        const verified = "Employee";
 
 
         const employee = new Employee("dan", 17, 'asd@.com');
 
         const outcome = employee.getRole();
 
-        expect(outcome).toBe(verity);
+        expect(outcome).toBe(verified);
     });
 
 

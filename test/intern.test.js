@@ -43,10 +43,10 @@ describe("to test the intern class", () =>{
 
     it('returns a new school value ', ()=>{
        //testing getSchool()
-        const verity = "School";
-        const intern = new Intern("Gary", "382", "Gary@mail.com", verity);
+        const verified = "School";
+        const intern = new Intern("Gary", "382", "Gary@mail.com", verified);
         const outcome = intern.getSchool();
-        expect(outcome).toBe(verity);
+        expect(outcome).toBe(verified);
     });
 
 });

@@ -32,7 +32,7 @@ describe("to test the engineer class", () =>{
     });
 
     it('returns the role of the engineer', () => {
-
+       //testing getRole()
         const role = "Engineer";
         const engineer = new Engineer("Steve", "777", "steve@email.com", "Myname");
         const outcome = engineer.getRole();
@@ -42,11 +42,11 @@ describe("to test the engineer class", () =>{
 
     it('returns a new github user name value', ()=>{
        //testing getGithub()
-        const verity = "Myname";
-        const engineer = new Engineer("Bala", "666", "bala@bala.com", verity);
+        const verified = "Myname";
+        const engineer = new Engineer("Bala", "666", "bala@bala.com", verified);
         const outcome = engineer.getGitHub();
         
-        expect(outcome).toBe(verity);
+        expect(outcome).toBe(verified);
     });
 
 });
