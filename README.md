@@ -71,7 +71,7 @@ The user will be prompted to anwser the Team profile questions. Once completed t
 -npm jest
 
 ## Tests 
-Install the module "jest" make sure the script is correct the the package.json (should be test "jest"), rum npm test in the terminal.
+Install the module "jest" make sure the script is correct the the package.json (should be test "jest"), run npm test in the terminal.
 
 
 ## Walkthrough Video
