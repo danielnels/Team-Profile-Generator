@@ -4,7 +4,7 @@
 
 App to dynamically generate a work team profile using Node JS.
 
- ## TableOfContents
+ ## Table Of Contents
   * [Description](#description)
   * [User Story](#user-story)
   * [This Weeks task](#this-weeks-task)
