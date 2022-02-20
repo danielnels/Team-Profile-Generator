@@ -64,7 +64,7 @@ describe("to test the manager class", () =>{
         //testing getPostion()
         const role = "Manager";
         const manager = new Manager("Dan", "666", "dan@dan.com", "38673867");
-        const outcome = manager. getPosition();
+        const outcome = manager.getRole();
         expect(outcome).toBe(role);
         
     });
