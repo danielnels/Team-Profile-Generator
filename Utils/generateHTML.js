@@ -104,7 +104,7 @@ function generateHTML(team) {
   <body>
     <div class="jumbotron-fluid bg-danger text-white">
       <div class="container pt-3 pb-5">
-        <h1 class="display-2 fw-bold">My Team</h1>
+        <h1 class="display-2 fw-bold text-center">My Team</h1>
       </div>
     </div>
     <div class="row row-cols-4 g-3 pt-3 ms-5 me-5 justify-content-center">
