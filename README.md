@@ -87,7 +87,8 @@ https://github.com/danielnels/Team-Profile-Generator/blob/main/dist/myTeam.html
 
 ## Generated HTML file image
 
-![Screen Shot](https://user-images.githubusercontent.com/94213022/154835798-6d19a05c-090b-4f4f-9ef8-84349f3cf1e3.png)
+![Screen Shot](https://user-images.githubusercontent.com/94213022/154880322-ba93783b-4a1e-4d7e-ab80-ad8a0d1adb9a.png)
+
 
 
 ## License
